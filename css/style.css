@@ -1,12 +1,24 @@
 body {
+	width: 100%;
 	font-family: 'Lato', sans-serif;
-	color: #969696;
+	color: #000000;
 	font-weight:300;
 
 }
 
+main {
+	width: 100%
+}
+
+h1{
+	font-weight: 300;
+}
+.hero {
+	width: 100%;
+
+}
 .text-muted {
-	color:#CCCCCC;
+	color: rgba(98, 98, 98, 0.61);
 }
 
 .text-thin {
@@ -25,4 +37,50 @@ body {
 	border: none;
 	height: 2px;
     background-color: #000000;
+}
+
+/** modal**/
+
+.modal-header{
+	width:100%;
+	color: #ffffff;
+	padding:9px 15px;
+	border-bottom: none;
+	background-color: #9A6DDC;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.modal-body{
+	width:100%;
+	color: #ffffff;
+	padding:9px 15px;
+	border-bottom: none;
+	background-color: #9A6DDC;
+}
+
+.modal-footer {
+	width: 100%;
+	color: #ffffff;
+	padding: 9px 15px;
+	border-top: none;
+	border-bottom: none;
+	background-color: #9A6DDC;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+button {
+	float: left;
+}
+.modal-img {
+  padding: inherit;
 }
