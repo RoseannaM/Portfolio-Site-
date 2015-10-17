@@ -3,7 +3,6 @@ body {
 	font-family: 'Lato', sans-serif;
 	color: #000000;
 	font-weight:300;
-
 }
 
 main {
@@ -13,6 +12,12 @@ main {
 h1{
 	font-weight: 300;
 }
+
+@media screen and (max-width: 990px) {
+	.hero{ display: none;}
+}
+
+
 .hero {
 	width: 100%;
 
