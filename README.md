@@ -1,3 +1,4 @@
 # RoseannaM.github.io
 
-This is the website I worked on for the Udacity Front End Development course.
+A basic website demonstrating responsive development.
+
